@@ -1,0 +1,148 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ */
+body {
+  margin: 0;
+  background-color: azure;
+}
+
+.container {
+  background-color: azure;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.full.container {
+  display: flex;
+  flex-direction: row;
+  
+}
+.city.container {
+  margin-top: -40px;
+}
+
+.discribtion.container {
+  display: flex;
+  justify-content: center;
+}
+
+.place.container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+h1, h2 {
+  font-size: 50px;
+  font-family: 'Rampart One', cursive;
+}
+
+h1:hover {
+  color: rgb(16, 7, 113);
+}
+
+h3:hover {
+  color: rgb(3, 89, 57);
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Rampart One', cursive;
+  margin: -110px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(200, 237, 237);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Rampart One', cursive;
+  color:rgb(33, 41, 33);
+  cursor: pointer;
+  box-shadow: 0px 2px 8px rgb(33, 41, 33);
+}
+
+.btn.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -40px;
+}
+
+img {
+  box-shadow: 0px 2px 8px rgb(33, 41, 33);
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.country-city.container {
+  display: flex;
+  flex-direction: row;
+  padding: 130px;
+  width: 120px;
+}
+
+.description.container {
+  font-size: 20px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.carousel.container {
+  display: flex;
+}
+
+picture {
+  margin-top: 0px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.button {
+  margin: 60px;
+}
+
+.gallery {
+  padding: 1px;
+}
+
+.city.container {
+  height: 1px;
+}
+
+.city {
+  color: azure;
+  margin: -40 0 0 40;
+}
+
+/*  .btn {
+  background-color: azure;
+  color: brown;
+  cursor: pointer;
+  font-size: 15px;
+}
+ */
+
+/* .btn:hover {
+  font-style:italic;
+}
+ */
+
+
