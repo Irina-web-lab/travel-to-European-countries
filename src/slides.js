@@ -3,7 +3,7 @@ export const slides = [
         id: 1,
         picture: 'https://cdn.pixabay.com/photo/2020/05/12/19/19/vienna-5164602_1280.jpg',
         depiction: 'I Wien er ikke kaffehusene bare et møtested, de er en institusjon. Å lese avisen med et bakverk og en sterk espressodrikk er ifølge UNESCO en offisiell hjørnestein i wienersk kultur. Gå av deg kakestykket med Sachertorte gjennom en selvguidet rundtur for å se byens storslagne tradisjonelle, separatistiske og moderne arkitektur, som keiserpalasset, den statlige operaen, Kirche am Steinhof eller det kunsthistoriske museum, som er en øvelse i dekorativ geometri.',    
- 
+        showMore: false,
     },
     {
         id: 2,
@@ -15,43 +15,43 @@ export const slides = [
         id: 3,
         picture: 'https://cdn.pixabay.com/photo/2016/05/20/11/23/santorini-1404852_1280.jpg',
         depiction: 'Selv om du aldri har vært på denne øya i Kykladene i Egeerhavet, vil du likevel gjenkjenne den umiddelbart. Stedet har godterifargede hus som er skåret inn i klipper, safirfarget hav og kritthvite bygninger med koboltblå kupler. Ta en spasertur på de svarte sandstrendene eller gatene i små landsbyer som Imerovigli. Vakre Oia er verdenskjent for solnedganger, og gir deg nesten en opplevelse av å se gjennom et kaleidoskop av farger før det forsvinner under stjernene.',    
-   
+        showMore: false,
     },
     {
         id: 4,
         picture: 'https://cdn.pixabay.com/photo/2019/03/09/10/56/heidelberg-4043954_1280.jpg',
         depiction: 'Heidelberg byen med det eldste universitetet i Tyskland ble hardt rammet av krigene på 1600-tallet og ble gjenreist med barokkbygninger på 1700-tallet. En spasertur gjennom det historiske sentrums gotiske gater kan anbefales. Sørg for å få med deg Heidelberg slott, byens symbolske hjerte, Alte Brucke, en vakker bro fra det 18. århundre og studentfengselet. Det stammer fra 1500-tallet og ble brukt til å holde fordervede studenter unna gatene i alt fra tre dager til en måned om gangen.',    
-    
+        showMore: false,
     },
     {
         id: 5,
         picture: 'https://cdn.pixabay.com/photo/2020/07/09/10/31/zaragoza-5386805_1280.jpg',
         depiction: 'Zaragoza, med sin spennende blanding av historisk og moderne stil, befinner seg ved breddene av elven Ebro. Spaser inn til sentrum av byen nær San Miguels fotgjengergater eller rundt Plaza de los Sitios, der du finner små motebutikker, markeder og suvenirbutikker. Zaragoza, et senter for gastronomiske opplevelser, tilbyr mat og drikke for alle budsjetter og all slags smak. Men tapas må du prøve!',    
-   
+        showMore: false,
     },
     {
         id: 6,
         picture: 'https://cdn.pixabay.com/photo/2016/03/29/21/06/florence-1289364_1280.jpg',
         depiction: 'Firenze får hjertene til kunstelskere til å slå dobbelt så raskt. De som liker renessansekunst, vil føle seg svimmel i Galleria dell’Accademia, som er stappfull av Michelangelos verker. Arkitekturelskere kan beundre den gamle Ponte Vecchio-broen, mens handlegale kan tilbringe en lykksalig ettermiddag på vandring mellom butikkene på Piazza Santo Spirito. Få påfyll under utforskningen ved å besøke restauranter som en hyller regionens overflod. Når du dypper en bit deilig brød med sprø skorpe i en dam av lokal olivenolje, vil du forstå hvor utsøkt toskansk mat kan være.',    
-     
+        showMore: false,
     },
     {
         id: 7,
         picture: 'https://cdn.pixabay.com/photo/2019/05/14/16/29/europa-4202790_1280.jpg',
         depiction: 'Bautzen er en by i det østlige Tyskland i delstaten Sachsen. Den ligger ved elven Spree i Oberlausitz, 50 kilometer øst for Dresden, og har 38 400 innbyggere (2019). Byen er det kulturelle senteret for sorberne, den slaviske folkegruppen i det østlige Tyskland. Bautzen har en mangesidig industri.',    
-       
+        showMore: false,
     },
     {
         id: 8,
         picture: 'https://cdn.pixabay.com/photo/2016/02/10/15/50/stockholm-1191953_1280.jpg',
         depiction: 'Sveriges dynamiske hovedstad kombinerer moderne attraksjoner som avantgarde kunst, stilfull shopping og nyskapende spisesteder med kongelige palasser og bygninger med gavler som ser ut som de er tatt rett ut av en eventyrbok. Spaser gjennom fantastiske parker og hager (Skansen fra 1800-tallet var verdens første friluftsmuseum), over pittoreske broer som forbinder byens øyer og ned trange brosteinsgater i gamlebyen – muligens det best bevarte historiske sentrum i Europa.',    
-        
+        showMore: false,
     },
     {
         id: 9,
         picture: 'https://cdn.pixabay.com/photo/2016/04/13/22/34/prague-1327856_1280.jpg',
         depiction: 'Prahas bohemske tiltrekning og eventyraktige preg gjør byen til et perfekt reisemål for kulturelskere som vil ta et dypdykk i historie, kunst, musikk og arkitektur. Du bør tilegne en hel dag til å utforske Prazsky hrad (slottet i Praha), og deretter lade opp igjen med en kraftig middag på en typisk tsjekkisk taverna. Tilbring litt tid på å vandre rundt torget i gamlebyen, før du går til den astronomiske klokken og observerer når den gjør en mekanisk oppvisning til hver hele time. Prahas beste barer er ofte historiske puber der du kan tilbringe en hel kveld, mens du nipper til et førsteklasses utvalg øl fra Sentral-Europa.',    
-     
+        showMore: false,
     },
     {
         id: 10,
