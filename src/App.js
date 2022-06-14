@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { data } from './data';
-import { slides } from './slides';
 import './App.css';
+import Gallery from './Gallery';
 
 function App() {
- const [places, setPlaces] = useState(data);
+ const [places, setPlaces] = useState(data, 
+   [Gallery]);
 /*   console.log(data);
  */ 
 
@@ -14,25 +15,9 @@ function App() {
  let newPlaces = places.filter(place => place.id !== id);
 /*     console.log(newHotels);
  */ setPlaces(newPlaces);
-
 }
-
-const [place, setPlace] = useState(0);
-const {id, picture, depiction} = slides[place];
-/* console.log(slides[place])
+/*  console.log(slides[place])
  */
-
-const perviousPlace = () => {
-    setPlace((place => {
- place --;
- return place;
- }))
- }
- const nextPlace = () => {
-    setPlace((place => {
- place ++;
- }))
- }
 
  return (<div>
  <div className='container'>
@@ -59,36 +44,16 @@ const perviousPlace = () => {
  }))}
  <div className='container'>
  <button className='btnDel' onClick={() => setPlaces([])}>SLETT ALT</button>
- </div>
 
-
-<div className='carousel container'>
-    <div className='gallery container'>
- <h1>Gallerie</h1>
- </div>
-
- <div className='city container'>
-<h2 className='city'>{id}</h2>
 </div>
 
- <div className="container">
- <img src={picture} width='800px' height='500px' alt='City'/>
- </div>
-
  <div>
- <h2 className="description container">{depiction}</h2>
- </div>
-
- <div className="btn-container">
- <button className='button' onClick={perviousPlace}>TILBAKE</button>
- <button className='button' onClick={nextPlace}>NESTE</button>
- </div>
-
- </div>
-
- </div>
+<Gallery/>
+</div>
+</div>
  )
 }
 
 
 export default App;
+
