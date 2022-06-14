@@ -57,30 +57,31 @@ export const slides = [
         id: 10,
         picture: 'https://cdn.pixabay.com/photo/2014/10/12/02/06/malta-485321_1280.jpg',
         depiction: 'Øya Malta er en av de tre hovedøyene i det maltesiske øyriket, og den er den største i kjeden. Hovedstaden Valetta er en livlig og travel by med mange bygninger som skriver seg fra 1500-tallet og har flust med katedraler, palasser og festninger. Den imponerende havnen sørger for en dramatisk ankomst. Den største arkeologiske severdigheten er Hypogeum-tempelruinene, som er tatt opp på UNESCOs verdensarvliste. Det er en underjordisk nekropolis på 600 kvadratmeter og verdens eneste underjordiske forhistoriske tempel.',    
-   
+        showMore: false,
     },
     {
         id: 11,
         picture: 'https://cdn.pixabay.com/photo/2018/09/04/23/08/copenhagen-3654991_1280.jpg',
         depiction: 'København var en gang en vikingbosetning av fiskere, og du kan fortsatt finne spor etter norrøne oppdagelsesreisende her.Du kan besøke rekonstruerte landsbyer, ruinene etter et 1000 år gammelt slott og museer tilegnet de beryktede, rødhårete barbarene.København har også en blanding av moderne arkitektur og historiske kulturminner, som Rundetårn – et vakkert eksempel på 1600-tallets arkitektur.Kunstgallerier, trange gater, kanaler, parker og kirker i barokkstil avrunder byens kulturelle attraksjoner.',    
-  
+        showMore: false,
     },
     {
         id: 12,
         picture: 'https://cdn.pixabay.com/photo/2020/01/09/22/03/lisbon-4754034_1280.jpg',
         depiction: 'Denne vandrevennlige byen, som ligger mellom syv åser, tilbyr et fortryllende alternativ til Europas mer populære hovedsteder. Med et livlig uteliv, festlige markeder og flotte museer tilbyr Lisboa mange muligheter til å drikke noen få obligatoriske glass med Porto, spise en generøs porsjon bacalhau og massevis av pastéis de nata.',    
-  
+        showMore: false,
     },
     {
         id: 13,
         picture: 'https://cdn.pixabay.com/photo/2022/01/01/17/50/building-6908494_1280.jpg',
         depiction: 'Fargerike by Bergen er også inngangsporten til majestetiske fjorder og fjell. På bryggen i Bergen (også kjent som Hansabryggen) får du et inntrykk av den lokale kulturen – ta deg tid til å knipse bilder av den gamle hanseatiske trebebyggelsen som ligner på kulisser fra et filmsett. Ikke trekk pusten altfor dypt når du er på fiskemarkedet, dette er en påminnelse om byens historiske viktige rolle i landets fiskehandel. Ta fergen over fjorden til Lysøen der villaen til 1800-tallskomponisten Ole Bull kommer til å trollbinde deg med sin eventyrlignende sjarm.',    
-    
+        showMore: false,
     },
     {
         id: 14,
         picture: 'https://cdn.pixabay.com/photo/2017/07/13/02/00/venice-2498931_1280.jpg',
         depiction: 'Venezia er en fortryllende by som kaster en berusende forhekselse over de besøkende. Byen er drømmende og romantisk, med en undertone av mystikk og drama. Og selv om karnevalet bare er én gang i året, er stemningen der hele året. Canal Grande er midtpunktet for aktiviteter, med gondolfører som synger til passasjerene i båtene sine. Den praktfulle Markusplassen er et annet samlingspunkt som må sees. Langs de svingete gatene finner du stilige kaféer og iskrembarer, suvenirbutikker og små forretninger, i tillegg til renessansepalasser og gotiske kirker. Etter at du har klatret opp i klokketårnet og besøkt Gallerie Dell’ Accademia, kan du spasere gjennom de omkringliggende nabolagene, der lokalbefolkningen spiser cicchetti og drikker vin i enkle barer og restauranter.',    
-   
+        showMore: false,
     }, 
 ]
+
