@@ -49,7 +49,7 @@ const showTextClick = (item) => {
                 </div>
 
 <div className="container">
-                <img className='picture' src={pic} alt='City'/>
+                <img className='picture' src={pic} width='800px' alt='City'/>
                 </div>
 
 <div className="container">
