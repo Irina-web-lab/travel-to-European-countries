@@ -43,7 +43,7 @@ export const slides = [
     },
     {
         id: 8,
-        piture: 'https://cdn.pixabay.com/photo/2016/02/10/15/50/stockholm-1191953_1280.jpg',
+        pic: 'https://cdn.pixabay.com/photo/2016/02/10/15/50/stockholm-1191953_1280.jpg',
         depiction: 'Sveriges dynamiske hovedstad kombinerer moderne attraksjoner som avantgarde kunst, stilfull shopping og nyskapende spisesteder med kongelige palasser og bygninger med gavler som ser ut som de er tatt rett ut av en eventyrbok. Spaser gjennom fantastiske parker og hager (Skansen fra 1800-tallet var verdens første friluftsmuseum), over pittoreske broer som forbinder byens øyer og ned trange brosteinsgater i gamlebyen – muligens det best bevarte historiske sentrum i Europa.',    
         showMore: false,
     },
