@@ -4,12 +4,7 @@ import { slides } from "./slides";
 
 function Gallery() {
     const [picture, setPicture] = useState(0);
-    const {id, pic, depiction} = slides[picture];
-/*     console.log(slides[picture])
- */
-/*     const [pictures] = useState(slides[depiction]);
- *//*     console.log(depiction)
- */
+    const {id, pic, depiction, showMore} = slides[picture];    
 
 const perviousPicture = () => {
     setPicture ((picture => {
@@ -31,14 +26,9 @@ const nextPicture = () => {
     }))
 }
 
-const [showMore, showText, setShowText] = useState(false);
+const [showText, setShowText] = useState(false);
 
-const showTextClick = (item) => {
-        item.showMore = !item.showMore
-        setShowText(!showText)
-}
-
- return (<div> 
+return (<div> 
 
 <div className='gallery container'>
                 <h2>Galleri</h2>
@@ -53,8 +43,8 @@ const showTextClick = (item) => {
                 </div>
 
 <div className="container">
-                <p>{showMore ? depiction : depiction.substring(0, 240) + " ..."}
-                <button className='slides btn' onClick={() => showTextClick(!showMore)}>{showMore ? 'Vis mindre' : 'Vis mer'}</button>
+                <p>{showMore ? depiction : depiction.substring(0,240) + '  ....'}
+                <button className='slides btn' onClick={() => setShowText(!showText)}>{showText ? 'Vis mindre' : 'Vis mer'}</button>
                 </p>
                 </div>
 
