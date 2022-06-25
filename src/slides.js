@@ -33,7 +33,7 @@ export const slides = [
         id: 6,
         pic: 'https://cdn.pixabay.com/photo/2016/03/29/21/06/florence-1289364_1280.jpg',
         depiction: 'Firenze får hjertene til kunstelskere til å slå dobbelt så raskt. De som liker renessansekunst, vil føle seg svimmel i Galleria dell’Accademia, som er stappfull av Michelangelos verker. Arkitekturelskere kan beundre den gamle Ponte Vecchio-broen, mens handlegale kan tilbringe en lykksalig ettermiddag på vandring mellom butikkene på Piazza Santo Spirito. Få påfyll under utforskningen ved å besøke restauranter som en hyller regionens overflod. Når du dypper en bit deilig brød med sprø skorpe i en dam av lokal olivenolje, vil du forstå hvor utsøkt toskansk mat kan være.',    
-     
+        showMore: false,
     },
     {
         id: 7,
@@ -84,3 +84,4 @@ export const slides = [
         showMore: false,
     }, 
 ]
+
