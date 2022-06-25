@@ -4,7 +4,7 @@ import { slides } from "./slides";
 
 function Gallery() {
     const [picture, setPicture] = useState(0);
-    const {id, pic, depiction, showMore} = slides[picture];    
+    const {id, pic, depiction} = slides[picture];    
 
 const perviousPicture = () => {
     setPicture ((picture => {
@@ -43,7 +43,7 @@ return (<div>
                 </div>
 
 <div className="container">
-                <p>{showMore ? depiction : depiction.substring(0,240) + '  ....'}
+                <p>{showText ? depiction : depiction.substring(0,240) + '  ....'}
                 <button className='slides btn' onClick={() => setShowText(!showText)}>{showText ? 'Vis mindre' : 'Vis mer'}</button>
                 </p>
                 </div>
